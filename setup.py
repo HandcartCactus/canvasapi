@@ -29,7 +29,7 @@ setup(
     license="MIT License",
     packages=["canvasapi"],
     include_package_data=True,
-    install_requires=["arrow", "pytz", "requests"],
+    install_requires=["arrow", "pytz", "requests", "pydantic"],
     zip_safe=False,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
